@@ -7,9 +7,8 @@
    ```
    a. python dataset_tool.py create_from_images path/to/custom_cartoon path/to/custom_cartoon_tf
    b. python run_training.py --num-gpus=1 --data-dir=/path/to/cartoon_parent_folder/ --config=config-f --dataset=custom_cartoon_tf --mirror-augment=true --total-kimg=32
+   ```
    
-   
-
 2. Blend 2 Stylegan generators, One trained on Cartoon dataset, other pretrained model trained on ffhq dataset.
    Lower resolution layers would be from ffhq, As we want to maintain the basic structure of the face. 
    Toon model on higher resolution layers would add cartoonize the input image by toonifying the low level features.
