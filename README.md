@@ -32,9 +32,20 @@
    e. python create_data.py
    ```
 5. Once paired dataset is created(Around 3k pairs are enough), Train pixel2style2pixel
+   ```
+   a. Set correct data paths in configs/paths_config.py
+   b. python scripts/train.py --dataset_type=toonify --exp_dir=path/to/experiment --batch_size=4 --val_interval=2500 --save_interval=5000 --encoder_type=GradualStyleEncoder --start_from_latent_avg --lpips_lambda=0.8 --l2_lambda=1 --id_lambda=1 --w_norm_lambda=0.025 --stylegan_weights pretrained_models/cartoon_blended.pt
+   
    
    
 6. Test
+   ```
+   python scripts/inference.py --exp_dir=path/to/experiment --checkpoint_path=toonification/experiment_4/checkpoints/iteration_55000.pt --         data_path=test_data --couple_outputs --test_batch_size=1
+   ```
+   
+Images need to be aligned before training or testing.
+
+
 
 ## 2. Links
 
