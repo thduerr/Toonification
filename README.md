@@ -45,22 +45,3 @@
    
 Images need to be aligned before training or testing.
 
-
-
-## 2. Links
-
-1. Custom cartoon dataset I created [Link](https://drive.google.com/file/d/1ZlXOXjZGCjs359v80xyOmH6ku3KodR7J/view?usp=sharing)
-2. Stylegan model trained on Cartoon dataset [Link](https://drive.google.com/file/d/1s47wlEnmskFpVYY-oa2Hmy0KmlVRAHqt/view?usp=sharing)
-3. Blended Stylegan model [Link](https://drive.google.com/file/d/16RgzfhAiZyd1SK5v-X9dNXD0oJb5kr0w/view?usp=sharing)
-4. Blended model converted to Pytorch [Link](https://drive.google.com/file/d/1HoF44evuAHHbOsfMe6Ampxdukiz5hf9t/view?usp=sharing)
-5. Trained Pixel2style2pixel model [Link](https://drive.google.com/file/d/1AuyllT0QwXjA797o2kB6Y-zSjA0uIS8N/view?usp=sharing)
-
-
-## 3. Results
-
-<img src="https://github.com/Nerdyvedi/Toonification/blob/main/assets/test_6.png" height="360" width="360"> <img src="https://github.com/Nerdyvedi/Toonification/blob/main/assets/out_8.jpeg" height="360" width="360">
-<img src="https://github.com/Nerdyvedi/Toonification/blob/main/assets/test_5.png" height="360" width="360"> <img src="https://github.com/Nerdyvedi/Toonification/blob/main/assets/out_5.jpeg" height="360" width="360">
-<img src="https://github.com/Nerdyvedi/Toonification/blob/main/assets/test_4.png" height="360" width="360"> <img src="https://github.com/Nerdyvedi/Toonification/blob/main/assets/out_4.jpeg" height="360" width="360">
-<img src="https://github.com/Nerdyvedi/Toonification/blob/main/assets/test_7.jpeg" height="360" width="360"> <img src="https://github.com/Nerdyvedi/Toonification/blob/main/assets/out_7.jpeg" height="360" width="360">
-
-
